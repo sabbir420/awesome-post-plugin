@@ -4,6 +4,8 @@
  */
 namespace Inc;
 
+include plugin_basename( dirname( __FILE__, 3 ) ) . "/oddly-plugin/custom-function.php" ;
+
 final class Init
 {
 	/**

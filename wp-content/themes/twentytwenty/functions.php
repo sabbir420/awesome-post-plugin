@@ -755,7 +755,7 @@ function twentytwenty_get_elements_array() {
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
 
-function create_history_table() {
+/*function create_history_table() {
     global $wpdb;
     $table_name = $wpdb->prefix. "history";
     global $charset_collate;
@@ -818,6 +818,6 @@ function diwp_create_shortcode_post_type(){
     return $result;            
 }
  
-add_shortcode( 'awesome-post', 'diwp_create_shortcode_post_type' ); 
+add_shortcode( 'awesome-post', 'diwp_create_shortcode_post_type' ); */
  
 // shortcode code ends here
