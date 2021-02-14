@@ -1,0 +1,17 @@
+{
+    "name": "oddly/oddly-plugin",
+    "description": "Plugin for oddly",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "MD Sabbir Hossain",
+            "email": "falaksabbir3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
